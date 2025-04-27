@@ -15,3 +15,6 @@ block p {
   font-size: 15px;
   color: yellow;
 }
+h1 ~ h3 {
+  color: brown;
+}
