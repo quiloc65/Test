@@ -1,4 +1,4 @@
-h1,
+/* h1,
 p {
   color: red;
 }
@@ -11,10 +11,90 @@ div > p {
   color: blue;
   font-size: 20px;
 }
+
 block p {
   font-size: 15px;
   color: yellow;
 }
+
 h1 ~ h3 {
   color: brown;
+}
+
+p[href] {
+  color: gold;
+}
+
+.click_thu:hover {
+  color: black;
+}
+
+.click_thu:visited {
+  color: pink;
+}
+
+.click_thu:active {
+  color: green;
+}
+
+.click_thu:link {
+  color: blue;
+}
+
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+}
+
+h2:target {
+  color: blue;
+}
+
+div {
+  border: 10px solid green;
+}
+
+.box {
+  width: 80px;
+  height: 100px;
+  padding: 20px;
+  background-color: green;
+}
+
+.box1 {
+  border: 10px solid blue;
+}
+
+.box2 {
+  border: 20px groove green;
+  margin-left: 139.2px;
+}
+
+.box3 {
+  border: 30px solid red;
+  margin-left: 299.2px;
+} */
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: -70px;
+}
+
+.avatar:first-child {
+  margin-left: 0;
+}
+
+.content {
+  background-color: yellow;
+  padding: 20px;
 }
